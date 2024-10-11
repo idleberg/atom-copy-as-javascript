@@ -66,4 +66,4 @@ This plugin is inspired and in part based on this [VSCode](https://github.com/an
 
 ## License
 
-This work is licensed under the [MIT License](LICENSE)
+This work is licensed under the [MIT License](LICENSE).
