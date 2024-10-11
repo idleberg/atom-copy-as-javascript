@@ -2,7 +2,7 @@
 
 > Converts TypeScript into plain JavaScript and puts it in the clipboard.
 
-[![License](https://img.shields.io/github/license/idleberg/atom-copy-as-javascript?color=blue&style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/idleberg/atom-copy-as-javascript?color=blue&style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/idleberg/atom-copy-as-javascript?style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/releases)
 [![Downloads](https://img.shields.io/pulsar/dt/copy-as-javascript?style=for-the-badge&color=slateblue)](https://web.pulsar-edit.dev/packages/copy-as-javascript)
 [![CI](https://img.shields.io/github/actions/workflow/status/idleberg/atom-copy-as-javascript/default.yml?style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/actions)
