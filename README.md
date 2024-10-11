@@ -1,6 +1,6 @@
 # copy-as-javascript
 
-> Converts TypeScript into plain JavaScriot and puts it in the clipboard.
+> Converts TypeScript into plain JavaScript and puts it in the clipboard.
 
 [![License](https://img.shields.io/github/license/idleberg/atom-copy-as-javascript?color=blue&style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/blob/master/LICENSE)
 [![Release](https://img.shields.io/github/v/release/idleberg/atom-copy-as-javascript?style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/releases)

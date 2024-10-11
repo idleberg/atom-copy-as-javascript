@@ -1,7 +1,7 @@
 {
   "name": "copy-as-javascript",
   "version": "0.0.0",
-  "description": "Converts TypeScript into plain JavaScriot and puts it in the clipboard.",
+  "description": "Converts TypeScript into plain JavaScript and puts it in the clipboard.",
   "private": false,
   "main": "./lib/index.js",
   "scripts": {
