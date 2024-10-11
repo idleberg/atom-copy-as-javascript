@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "command": "copy-as-javascript:copy-as-javascript",
+        "label": "Copy As JavaScript"
+      }
+    ]
+  }
+}

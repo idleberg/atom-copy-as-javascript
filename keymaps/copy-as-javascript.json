@@ -1,0 +1,8 @@
+{
+  ".platform-darwin atom-text-editor": {
+    "cmd-c cmd-c": "copy-as-javascript:copy-as-javascript"
+  },
+  ".platform-linux atom-text-editor, .platform-win32 atom-text-editor": {
+    "ctrl-c ctrl-c": "copy-as-javascript:copy-as-javascript"
+  }
+}
