@@ -1,11 +1,15 @@
 # copy-as-javascript
 
-> Converts TypeScript into plain JavaScript and puts it in the clipboard.
-
 [![License](https://img.shields.io/github/license/idleberg/atom-copy-as-javascript?color=blue&style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/idleberg/atom-copy-as-javascript?style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/releases)
 [![Downloads](https://img.shields.io/pulsar/dt/copy-as-javascript?style=for-the-badge&color=slateblue)](https://web.pulsar-edit.dev/packages/copy-as-javascript)
 [![CI](https://img.shields.io/github/actions/workflow/status/idleberg/atom-copy-as-javascript/default.yml?style=for-the-badge)](https://github.com/idleberg/atom-copy-as-javascript/actions)
+
+Converts TypeScript into plain JavaScript and puts it in the clipboard. Why?
+
+> “An underdiscussed benefit of JS over TS - I'll frequently test individual functions by pasting them into the browser console. There's no faster feedback loop.”
+>
+> Rich Harris, creator or Rollup & Svelte
 
 ## Installation
 
@@ -17,24 +21,27 @@ Install `copy-as-javascript` from the editor's [Package Manager](http://flight-m
 
 ### Using Git
 
+> [!NOTE]
+> The following examples assume you are using [Pulsar](https://pulsar-edit.dev/), a follow-up project for the [discontinued Atom](https://github.blog/news-insights/product-news/sunsetting-atom/) editor. If you still use Atom, replace the `.pulsar` folder with `.atom`, aswell as the CLI took `ppm` with `apm`.
+
 Change to your packages directory:
 
 **Windows**
 
 ```powershell
 # Powershell
-$ cd $Env:USERPROFILE\.atom\packages
+$ cd $Env:USERPROFILE\.pulsar\packages
 ```
 
 ```cmd
 :: Command Prompt
-$ cd %USERPROFILE%\.atom\packages
+$ cd %USERPROFILE%\.pulsar\packages
 ```
 
 **Linux & macOS**
 
 ```bash
-$ cd ~/.atom/packages/
+$ cd ~/.pulsar/packages/
 ```
 
 Clone the repository as `copy-as-javascript`:
@@ -47,13 +54,13 @@ Install dependencies:
 
 ```bash
 $ cd copy-as-javascript
-$ ppm install || apm install
+$ ppm install
 ```
 
 Build source:
 
 ```bash
-$ ppm run build || apm run build
+$ ppm run build
 ```
 
 ## Usage
