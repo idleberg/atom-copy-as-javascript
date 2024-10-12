@@ -9,6 +9,19 @@ const tsConfig: CompilerOptions = {
 	jsx: JsxEmit.Preserve,
 	removeComments: false,
 	target: ScriptTarget.ESNext,
+
+	// Make it fast
+	declaration: false,
+	inlineSourceMap: false,
+	isolatedModules: true,
+	module: undefined,
+	moduleResolution: undefined,
+	noEmit: false,
+	noEmitOnError: false,
+	noImplicitAny: false,
+	skipLibCheck: true,
+	sourceMap: false,
+	strict: false,
 };
 
 export async function copyAsJavascript() {
