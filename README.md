@@ -22,7 +22,7 @@ Install `copy-as-javascript` from the editor's [Package Manager](http://flight-m
 ### Using Git
 
 > [!NOTE]
-> The following examples assume you are using [Pulsar](https://pulsar-edit.dev/), a follow-up project for the [discontinued Atom](https://github.blog/news-insights/product-news/sunsetting-atom/) editor. If you still use Atom, replace the `.pulsar` folder with `.atom`, aswell as the CLI tool `ppm` with `apm`.
+> The following examples assume you are using [Pulsar](https://pulsar-edit.dev/), a follow-up project for the [discontinued Atom](https://github.blog/news-insights/product-news/sunsetting-atom/) editor. If you still use Atom, replace the `.pulsar` folder with `.atom`, as well as the CLI tool `ppm` with `apm`.
 
 Change to your packages directory:
 
