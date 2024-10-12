@@ -36,18 +36,13 @@
 	"activationHooks": [
 		"core:loaded-shell-environment"
 	],
-	"dependencies": {
-		"@atxm/developer-console": "^0.6.1",
-		"decaffeinate": "^8.1.4",
-		"diff": "^7.0.0",
-		"normalize-newline": "^4.1.0"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@types/atom": "^1.40.11",
 		"@types/node": "^14",
-		"eslint": "^9.11.0",
 		"eslint-plugin-jsonc": "^2.16.0",
 		"eslint-plugin-unicorn": "^55.0.0",
+		"eslint": "^9.11.0",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"npm-run-all2": "^6.2.3",
@@ -56,6 +51,10 @@
 		"tslib": "^2.3.1",
 		"tsup": "^8.3.0",
 		"typescript": "^5.6.2",
+		"@atxm/developer-console": "^0.6.1",
+		"decaffeinate": "^8.1.4",
+		"diff": "^7.0.0",
+		"normalize-newline": "^4.1.0",
 		"typescript-eslint": "^8.6.0"
 	},
 	"lint-staged": {
