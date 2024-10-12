@@ -4,22 +4,7 @@ export default defineConfig({
 	bundle: true,
 	clean: true,
 	entry: ['src/index.ts'],
-	external: [
-		// Atom
-		'atom',
-		'electron',
-
-		// Node
-		'assert',
-		'buffer',
-		'child_process',
-		'events',
-		'fs',
-		'os',
-		'path',
-		'stream',
-		'util',
-	],
+	external: ['atom', 'electron'],
 	format: 'cjs',
 	minify: true,
 	outDir: 'lib',
